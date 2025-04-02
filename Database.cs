@@ -6,7 +6,8 @@ namespace EcomobilSituation2
 {
     public class Database
     {
-        private string connectionString = "server=localhost;user=root;database=ecomobil;port=3306;password=";
+        // Mise à jour avec le nom correct de la base de données
+        private string connectionString = "server=localhost;user=root;database=ecoMobil;port=3306;password=";
 
         public DataTable ExecuteQuery(string query)
         {
